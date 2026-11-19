@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Logo Options</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&family=Kantumruy+Pro:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--red:#D7261E;--blk:#0B0B0B;--paper:#F3F0EA}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--blk);font-family:Archivo,sans-serif}
+header{padding:40px 24px 8px;max-width:1200px;margin:auto}
+h1{font-stretch:80%;font-weight:800;font-size:clamp(2rem,5vw,3.4rem);margin:0;text-transform:uppercase;letter-spacing:-.01em}
+p.note{font:400 13px/1.6 "IBM Plex Mono",monospace;max-width:640px;color:#555}
+.opt{max-width:1200px;margin:28px auto;padding:0 24px}
+.lab{display:flex;gap:14px;align-items:baseline;font:500 12px "IBM Plex Mono",monospace;text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px}
+.lab b{color:var(--red)}.lab span{color:#666;text-transform:none;letter-spacing:0;font-weight:400}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:0}
+.pair>div{min-height:300px;display:grid;place-items:center;padding:40px}
+.w{background:#fff}.k{background:var(--blk)}
+.pair img{width:min(78%,420px)}
+.fav{display:flex;gap:10px;align-items:center;margin-top:10px;font:12px "IBM Plex Mono",monospace;color:#666}
+.fav img{width:32px;height:32px}.fav img.s{width:16px;height:16px}
+/* E bilingual */
+.bi{display:grid;gap:14px;justify-items:start;width:min(78%,420px)}
+.bi img{width:100%}
+.bi .km{display:flex;align-items:center;gap:14px;width:100%;font-family:"Kantumruy Pro";font-weight:700;font-size:clamp(18px,2.6vw,30px);line-height:1}
+.bi .km i{flex:1;height:3px;background:currentColor}
+.bi .km em{width:12px;height:12px;border-radius:50%;background:var(--red)}
+.k .bi{color:#fff}
+@media (max-width:700px){.pair{grid-template-columns:1fr}}
+</style></head><body>
+<header><h1>Veasna Panha — logo options</h1>
+<p class="note">Five directions, each shown on white and on black. Every letter is drawn as a custom shape (no font file needed), in red #D7261E, black #0B0B0B and white. Tell me a letter, or mix them (e.g. "C, but with the Khmer line from E").</p></header>
+
+<section class="opt"><div class="lab"><b>A</b> Stacked + record dot <span>The current one. The red dot is a camera "REC" light and the full stop of the name.</span></div>
+<div class="pair"><div class="w"><img src="../veasna-panha-logo-black.svg" alt=""></div><div class="k"><img src="../veasna-panha-logo-white.svg" alt=""></div></div>
+<div class="fav">Icon: <img src="../veasna-panha-mark-rounded.svg" alt=""><img class="s" src="../veasna-panha-mark-rounded.svg" alt=""></div></section>
+
+<section class="opt"><div class="lab"><b>B</b> Viewfinder <span>The name framed by camera corner marks, with the REC light top-right. Reads as "producer / cinematographer" at a glance.</span></div>
+<div class="pair"><div class="w"><img src="B-viewfinder-black.svg" alt=""></div><div class="k"><img src="B-viewfinder-white.svg" alt=""></div></div></section>
+
+<section class="opt"><div class="lab"><b>C</b> Block monogram <span>Closest to your Brown &amp; Company reference: a solid square with the V cut out, and the stacked name beside it. The block works alone as an icon.</span></div>
+<div class="pair"><div class="w"><img src="C-monogram-black.svg" alt=""></div><div class="k"><img src="C-monogram-white.svg" alt=""></div></div></section>
+
+<section class="opt"><div class="lab"><b>D</b> Timeline <span>One line, sitting on an editing timeline, with a red playhead between the two names. Good for wide spaces: headers, video end cards, email signatures.</span></div>
+<div class="pair"><div class="w"><img src="D-timeline-black.svg" alt=""></div><div class="k"><img src="D-timeline-white.svg" alt=""></div></div></section>
+
+<section class="opt"><div class="lab"><b>E</b> Bilingual <span>The stacked mark with your name in Khmer underneath, matching the bilingual site. Please check the Khmer spelling វាសនា បញ្ញា.</span></div>
+<div class="pair">
+<div class="w"><div class="bi"><img src="../veasna-panha-logo-black.svg" alt=""><div class="km">វាសនា បញ្ញា <i></i></div></div></div>
+<div class="k"><div class="bi"><img src="../veasna-panha-logo-white.svg" alt=""><div class="km">វាសនា បញ្ញា <i></i></div></div></div>
+</div></section>
+</body></html>

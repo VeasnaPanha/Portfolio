@@ -1,79 +1,95 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Veasna Panha — Marketing & Communication Officer</title>
-<meta name="description" content="Portfolio of Veasna Panha: marketing strategy, content planning, design, video, motion graphics and web.">
-<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Veasna Panha — Producer & Cinematographer, Phnom Penh</title>
+<meta name="description" content="Veasna Panha is a producer and cinematographer in Phnom Penh, Cambodia, making documentaries, commercials, podcasts and campaign films.">
+<meta name="author" content="Veasna Panha">
+<meta name="theme-color" content="#0b0b0b">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Veasna Panha">
+<meta property="og:title" content="Veasna Panha — Producer & Cinematographer, Phnom Penh">
+<meta property="og:description" content="Veasna Panha is a producer and cinematographer in Phnom Penh, Cambodia, making documentaries, commercials, podcasts and campaign films.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..900;1,62..125,300..900&family=IBM+Plex+Mono:wght@400;500&family=Kantumruy+Pro:wght@300..700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-<header class="nav">
-  <a class="logo" href="#home">VP.</a>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#work">Work</a>
-    <a href="#contact">Contact</a>
-    <button id="theme" aria-label="Toggle dark mode">◐</button>
-  </nav>
-</header>
+<body data-page="home" id="top">
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+<header id="site-header" class="site-header"></header>
+<main id="main">
 
-<main>
-<section id="home" class="hero">
-  <p class="eyebrow">Marketing &amp; Communication Officer</p>
-  <h1>Hi, I'm <span>Veasna Panha</span>.<br>I turn stories into content people remember.</h1>
-  <p class="lead">From media background to marketing: planning, designing, filming and building websites for CICI and Bridge of Hope.</p>
-  <div class="cta">
-    <a class="btn" href="#work">See my work</a>
-    <a class="btn ghost" href="#contact">Get in touch</a>
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-meta mono">
+      <span class="rec"><span class="rec-dot"></span><span data-i18n="role.short">Producer · Cinematographer</span></span>
+      <span data-city>Phnom Penh, Cambodia</span>
+      <span data-status>Available for new projects</span>
+    </div>
+    <h1 class="display h1" data-i18n="home.h1">Films about people, made in Cambodia.</h1>
+    <div class="hero-foot">
+      <p class="lead" data-i18n="home.intro">I’m Veasna Panha, a producer and cinematographer in Phnom Penh.</p>
+      <div class="actions">
+        <a class="btn" href="work.html"><span data-i18n="home.viewWork">See the work</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--red" href="contact.html"><span data-i18n="nav.start">Start a project</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <div class="strip" id="strip"></div>
+</section>
+
+<section class="sec"><div class="wrap" id="featured"></div></section>
+
+<section class="sec paper">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="mono"><span class="idx">01</span><span data-i18n="home.selected">Selected work</span></span></div>
+      <a class="btn btn--sm" href="work.html"><span data-i18n="home.allWork">All projects</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></div>
+    <div class="grid-work" id="selected"></div>
   </div>
 </section>
 
-<section id="about">
-  <h2>About</h2>
-  <p>I'm a Marketing and Communication Officer at <strong>Cambodian International Cooperation Institute (CICI)</strong> and <strong>Bridge of Hope (BoH)</strong>. My roots are in media, so I think in stories first and strategy second. I plan content calendars, design posters, write captions, shoot and edit video, create motion graphics, and build and maintain websites.</p>
-  <ul class="stats">
-    <li><b>2</b> organizations</li>
-    <li><b>6</b> creative skills</li>
-    <li><b>1</b> goal: reach more people</li>
-  </ul>
-</section>
-
-<section id="services">
-  <h2>What I do</h2>
-  <div class="grid">
-    <article><h3>Content Planning &amp; Strategy</h3><p>Monthly content planners, campaign ideas and audience-focused messaging.</p></article>
-    <article><h3>Graphic Design</h3><p>Posters, social media graphics and brand-consistent visuals.</p></article>
-    <article><h3>Captions &amp; Copywriting</h3><p>Clear, human captions in English and Khmer that drive engagement.</p></article>
-    <article><h3>Video Shooting &amp; Editing</h3><p>Event coverage, reels, interviews and storytelling videos.</p></article>
-    <article><h3>Motion Graphics</h3><p>Animated titles, explainers and short-form reel graphics.</p></article>
-    <article><h3>Websites</h3><p>Building and maintaining organization websites.</p></article>
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="mono"><span class="idx">02</span><span data-i18n="home.what">What I do</span></span>
+      <h2 class="display h2" data-i18n="home.whatH">From the first call to the final export.</h2></div></div>
+    <div class="svc-list" id="svc-short"></div>
+    <p style="margin-top:36px"><a class="btn" href="services.html"><span data-i18n="home.allServices">Services &amp; process</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a></p>
   </div>
 </section>
 
-<section id="work">
-  <h2>Selected work</h2>
-  <p class="muted">Replace these cards with your real projects: put images in <code>assets/</code> and edit the lines below.</p>
-  <div class="grid work">
-    <a class="card" href="#"><div class="thumb">Poster</div><h3>CICI Campaign Poster</h3><p>Design · Social media</p></a>
-    <a class="card" href="#"><div class="thumb">Video</div><h3>BoH Event Highlight Reel</h3><p>Video · Editing</p></a>
-    <a class="card" href="#"><div class="thumb">Motion</div><h3>Motion Graphic Intro</h3><p>Motion graphics</p></a>
-    <a class="card" href="#"><div class="thumb">Web</div><h3>Organization Website</h3><p>Web · Maintenance</p></a>
-    <a class="card" href="#"><div class="thumb">Plan</div><h3>Monthly Content Planner</h3><p>Strategy · Planning</p></a>
-    <a class="card" href="#"><div class="thumb">Caption</div><h3>Caption Series</h3><p>Copywriting</p></a>
+<section class="sec--tight">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat rv"><b>4+</b><span data-i18n="stat.years">years making media</span></div>
+      <div class="stat rv"><b>12</b><span data-i18n="stat.projects">projects in this portfolio</span></div>
+      <div class="stat rv"><b>12</b><span data-i18n="stat.eps">podcast episodes produced</span></div>
+      <div class="stat rv"><b>2</b><span data-i18n="stat.langs">languages, Khmer &amp; English</span></div>
+    </div>
   </div>
 </section>
 
-<section id="contact">
-  <h2>Let's work together</h2>
-  <p>Have a project or an idea? Send me a message.</p>
-  <a class="btn" href="mailto:veasnapanha22@gmail.com">veasnapanha22@gmail.com</a>
-  <p class="social"><a href="https://github.com/VeasnaPanha">GitHub</a> · <a href="#">Facebook</a> · <a href="#">LinkedIn</a></p>
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="mono"><span class="idx">03</span><span data-i18n="home.partners">Worked with</span></span>
+      <h2 class="display h2" data-i18n="home.partnersH">NGOs, a university and agencies.</h2></div></div>
+    <ul class="partners" id="partners"></ul>
+  </div>
 </section>
+<section class="cta on-red"><div class="wrap cta-row">
+  <div><h2 class="display h2 rv" data-i18n="cta.h">Got a project? Tell me about it.</h2><p class="lead rv" style="margin-top:22px;color:var(--fg-2)" data-i18n="cta.p">Send a short brief.</p></div>
+  <a class="btn rv" href="contact.html"><span data-i18n="nav.start">Start a project</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+</div></section>
 </main>
-
-<footer>© <span id="year"></span> Veasna Panha. All rights reserved.</footer>
-<script src="script.js"></script>
+<footer id="site-footer" class="site-footer"></footer>
+<div class="grain" aria-hidden="true"></div>
+<script src="assets/js/projects.js"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact — Veasna Panha</title>
+<meta name="description" content="Start a project with Veasna Panha, producer and cinematographer in Phnom Penh.">
+<meta name="author" content="Veasna Panha">
+<meta name="theme-color" content="#0b0b0b">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Veasna Panha">
+<meta property="og:title" content="Contact — Veasna Panha">
+<meta property="og:description" content="Start a project with Veasna Panha, producer and cinematographer in Phnom Penh.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..900;1,62..125,300..900&family=IBM+Plex+Mono:wght@400;500&family=Kantumruy+Pro:wght@300..700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="contact" data-title="nav.contact" id="top">
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+<header id="site-header" class="site-header"></header>
+<main id="main">
+
+<section class="page-head"><div class="wrap">
+  <span class="mono"><span class="idx">●</span><span data-i18n="c.kicker">Contact</span></span>
+  <h1 class="display h1" data-i18n="c.h1">Let’s make something.</h1>
+  <p class="lead" data-i18n="c.lead">Fill in what you know.</p>
+</div></section>
+<section style="padding-bottom:clamp(72px,10vw,140px)"><div class="wrap contact-grid">
+  <form class="form" id="brief" novalidate>
+    <div class="field"><label class="mono" for="f-name" data-i18n="c.name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
+    <div class="field"><label class="mono" for="f-org" data-i18n="c.org">Organisation</label><input id="f-org" name="org" autocomplete="organization"></div>
+    <div class="field full"><label class="mono" for="f-reply" data-i18n="c.reply">Email or Telegram</label><input id="f-reply" name="reply" autocomplete="email"></div>
+    <div class="field full"><span class="mono fg2" data-i18n="c.type">What is it?</span><div class="types" id="types"></div></div>
+    <div class="field"><label class="mono" for="f-budget" data-i18n="c.budget">Budget (USD)</label><select id="f-budget" name="budget"></select></div>
+    <div class="field"><label class="mono" for="f-date" data-i18n="c.date">When do you need it?</label><input id="f-date" name="date" type="month"></div>
+    <div class="field full"><label class="mono" for="f-msg" data-i18n="c.msg">Tell me about the project</label><textarea id="f-msg" name="message" required data-i18n-ph="c.msgPh"></textarea></div>
+    <div class="form-actions">
+      <button class="btn btn--red" type="submit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14"/><path d="M3 6l9 7 9-7"/></svg><span data-i18n="c.sendMail">Send by email</span></button>
+      <button class="btn" type="button" id="send-tg"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.9 4.3l-3.2 15.1c-.2 1-.9 1.3-1.7.8l-4.8-3.5-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2l-11 6.9-4.7-1.5c-1-.3-1-1 .2-1.5l18.5-7.1c.9-.3 1.6.2 1.4 1.2z"/></svg><span data-i18n="c.sendTg">Send on Telegram</span></button>
+    </div>
+    <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+  </form>
+  <aside>
+    <p class="status-pill mono"><i></i><span data-status>Available for new projects</span></p>
+    <div class="direct" style="margin-top:28px">
+      <div><span class="mono fg2" data-i18n="c.email">Email</span><div class="v"><a class="link-u" href="mailto:veasnapanha22@gmail.com" data-email>veasnapanha22@gmail.com</a><button class="copy" type="button" data-copy="email">Copy</button></div></div>
+      <div><span class="mono fg2" data-i18n="c.phone">Phone / Telegram</span><div class="v"><a class="link-u" href="https://t.me/PANHAVP" target="_blank" rel="noopener" data-phone>+855 96 3433 142 · @PANHAVP</a><button class="copy" type="button" data-copy="phone">Copy</button></div></div>
+      <div><span class="mono fg2" data-i18n="c.based">Based in</span><div class="v"><span data-city>Phnom Penh, Cambodia</span><span class="mono fg2 keep-latin" data-clock></span></div></div>
+    </div>
+    <p class="fg2" style="margin-top:24px" data-i18n="c.replyTime">I reply within two working days.</p>
+    <p class="fg2" data-i18n="c.travel">Available to shoot anywhere in Cambodia.</p>
+  </aside>
+</div></section>
+</main>
+<footer id="site-footer" class="site-footer"></footer>
+<div class="grain" aria-hidden="true"></div>
+<script src="assets/js/projects.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
